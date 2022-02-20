@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+.navbar{
+    padding: 2% 3%;
+}
+.nav-link{
+   margin: 0 20px;
+}
+.mallareddy-img{
+    margin-top: 40px;
+    margin-left: 150px;
+    border-radius: 50%;
+}
+.mainImg{
+    height: 500px;
+    width: 80%;
+    border-radius: 30px;
+}
+#about{
+    margin-top: 5rem;
+    padding: 5rem 0;
+    text-align: justify;
+}
+#left{
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+.row{
+    margin: 2rem 0 ;
+}
+.about{
+    text-align: left;
+}
+.college-img{
+    height: 300px;
+    border-radius: 30px;
+    margin-left: 6rem;
+    margin-top: 7rem;
+}
+
+/* //responsive design for mobile  */
+@media screen and (max-width:480px) {
+
+.mainImg{
+    height: 400px;
+    width: 400px;
+}    
+
+.college-img{
+    height: 250px;
+    width: auto;
+    border-radius: 30px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.aboutPara{
+  width: 80%; 
+  text-align: center;
+  margin-left: 2.5rem;
+}
+#about{
+    margin-top: 0rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+#left{
+    margin-left: 0;
+    padding: 0 2.5rem;
+}
+#right{
+  position: relative;
+  right: 6.5rem;
+}
+    
+}
